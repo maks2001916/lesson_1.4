@@ -11,7 +11,11 @@ public class Main {
                 System.out.print(s + " ");
 
             }
-
     }
+    //Второе зажание
+        int friday = 5;
+        for (; friday <= 31; friday = friday + 5) {
+            System.out.println("сегодня птница, " + friday + "-ое число. Необходимо одготовить отчёт.");
+        }
     }
 }
