@@ -3,7 +3,9 @@ public class Main {
     {
         System.out.println("Hello world!"); {
             //Первое задание
-            for (int i = 1; i <= 10; i++) {
+            int i = 0;
+            while ( i < 10) {
+                i++;
                 System.out.print(i + " ");
             }
             System.out.print("\n");
@@ -11,11 +13,12 @@ public class Main {
                 System.out.print(s + " ");
 
             }
+        System.out.print("\n");
     }
     //Второе задание
         int friday = 5;
-        for (; friday <= 31; friday = friday + 5) {
-            System.out.println("сегодня птница, " + friday + "-ое число. Необходимо одготовить отчёт.");
+        for (; friday <= 31; friday += 7) {
+            System.out.println("сегодня птница, " + friday + "-ое число. Необходимо подготовить отчёт.");
         }
     //Третье задание
     int year = 2022;
